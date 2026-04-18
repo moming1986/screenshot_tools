@@ -1,0 +1,20 @@
+{
+  "name": "pageops-sdk",
+  "version": "1.0.0",
+  "description": "PageOps Screenshot API SDK for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pageops",
+    "screenshot",
+    "api",
+    "sdk"
+  ],
+  "author": "PageOps",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

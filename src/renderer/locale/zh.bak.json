@@ -1,0 +1,90 @@
+{
+  "app": {
+    "title": "PageOps 截图工具",
+    "inputPanel": "输入界面",
+    "displayPanel": "显示与下载",
+    "capture": "抓取截图",
+    "cancel": "取消",
+    "clearSettings": "清除设置",
+    "historyCount": "历史记录: {{count}}"
+  },
+  "fields": {
+    "apiKey": "PageOps API Key",
+    "apiBaseUrl": "API Base URL",
+    "targetUrl": "目标 URL",
+    "batchMode": "批量模式",
+    "batchUrlsPlaceholder": "https://example.com/product/1\nhttps://example.com/product/2\nhttps://example.com/product/3\n（最多 20 个 URL）",
+    "mode": "模式",
+    "modeAsync": "async（返回 jobId，自动轮询）",
+    "modeSync": "sync（直接等待结果）",
+    "viewport": "视口",
+    "viewportWidth": "宽度",
+    "viewportHeight": "高度",
+    "selector": "Selector（抓取特定元素）",
+    "delay": "延迟 (ms)",
+    "headers": "Headers JSON（可填 Authorization 等）",
+    "cookies": "Cookies JSON（数组）"
+  },
+  "config": {
+    "screenshotConfig": "截图配置（可选）",
+    "cookieTokenInput": "Cookie / Token 输入",
+    "presets": "配置预设",
+    "showPresetPanel": "显示预设面板",
+    "loadPreset": "加载预设",
+    "savePreset": "保存当前配置为预设",
+    "presetNamePlaceholder": "例如：移动端+登录态",
+    "save": "保存",
+    "clearAllPresets": "清除所有预设",
+    "watermark": "水印配置",
+    "enableWatermark": "启用下载水印",
+    "watermarkText": "水印文字",
+    "watermarkPosition": "位置",
+    "watermarkFontSize": "字体大小",
+    "watermarkOpacity": "透明度",
+    "watermarkColor": "文字颜色",
+    "watermarkBgColor": "背景颜色",
+    "watermarkPadding": "内边距",
+    "poster": "海报配置",
+    "showPosterPanel": "显示海报配置面板",
+    "posterTemplate": "模板",
+    "posterTitle": "标题",
+    "posterSubtitle": "副标题",
+    "posterPrice": "价格",
+    "posterBadge": "徽章文字",
+    "posterShowUrl": "显示 URL",
+    "posterShowTimestamp": "显示时间戳",
+    "posterShowDevice": "显示设备信息",
+    "posterShowBrand": "显示品牌",
+    "posterBrandText": "品牌文字",
+    "posterAccentColor": "主题色",
+    "posterBgStyle": "背景风格"
+  },
+  "history": {
+    "noImage": "暂无图片",
+    "jobId": "jobId",
+    "status": "状态",
+    "download": {
+      "png": "PNG",
+      "jpeg": "JPEG",
+      "watermarkPng": "水印PNG",
+      "watermarkJpeg": "水印JPEG",
+      "poster": "海报",
+      "posterGenerating": "生成中..."
+    }
+  },
+  "errors": {
+    "apiKeyRequired": "请先填写 PageOps API Key",
+    "urlRequired": "请先填写目标 URL",
+    "batchUrlsRequired": "请先填写批量 URL（每行一个）",
+    "headersParseFailed": "Headers JSON 解析失败",
+    "cookiesParseFailed": "Cookies 解析失败",
+    "cookiesMustBeArray": "Cookies JSON 必须是数组，例如: [{\"name\":\"a\",\"value\":\"b\",\"domain\":\"example.com\"}]",
+    "downloadFailed": "下载失败"
+  },
+  "progress": {
+    "batch": "进度: {{current}} / {{total}}"
+  },
+  "confirm": {
+    "clearPresets": "确定要清除所有预设吗？"
+  }
+}

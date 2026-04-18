@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node-sdk",
+    "\\src",
+    "\\src\\main",
+    "\\src\\renderer",
+    "\\src\\renderer\\locale",
+    "\\src\\renderer\\ui",
+    "\\src\\renderer\\utils"
+  ],
+  "SelectedNode": "\\node-sdk\\package-lock.json",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,90 @@
+{
+  "app": {
+    "title": "PageOps Screenshot Tool",
+    "inputPanel": "Input",
+    "displayPanel": "Display & Download",
+    "capture": "Capture",
+    "cancel": "Cancel",
+    "clearSettings": "Clear Settings",
+    "historyCount": "History: {{count}}"
+  },
+  "fields": {
+    "apiKey": "PageOps API Key",
+    "apiBaseUrl": "API Base URL",
+    "targetUrl": "Target URL",
+    "batchMode": "Batch Mode",
+    "batchUrlsPlaceholder": "https://example.com/product/1\nhttps://example.com/product/2\nhttps://example.com/product/3\n(Max 20 URLs)",
+    "mode": "Mode",
+    "modeAsync": "async (returns jobId, auto polling)",
+    "modeSync": "sync (wait for result directly)",
+    "viewport": "Viewport",
+    "viewportWidth": "Width",
+    "viewportHeight": "Height",
+    "selector": "Selector (capture specific element)",
+    "delay": "Delay (ms)",
+    "headers": "Headers JSON (Authorization, etc.)",
+    "cookies": "Cookies JSON (array)"
+  },
+  "config": {
+    "screenshotConfig": "Screenshot Config (Optional)",
+    "cookieTokenInput": "Cookie / Token Input",
+    "presets": "Config Presets",
+    "showPresetPanel": "Show Preset Panel",
+    "loadPreset": "Load Preset",
+    "savePreset": "Save Current Config as Preset",
+    "presetNamePlaceholder": "e.g. Mobile + Login",
+    "save": "Save",
+    "clearAllPresets": "Clear All Presets",
+    "watermark": "Watermark Config",
+    "enableWatermark": "Enable Download Watermark",
+    "watermarkText": "Watermark Text",
+    "watermarkPosition": "Position",
+    "watermarkFontSize": "Font Size",
+    "watermarkOpacity": "Opacity",
+    "watermarkColor": "Text Color",
+    "watermarkBgColor": "Background Color",
+    "watermarkPadding": "Padding",
+    "poster": "Poster Config",
+    "showPosterPanel": "Show Poster Panel",
+    "posterTemplate": "Template",
+    "posterTitle": "Title",
+    "posterSubtitle": "Subtitle",
+    "posterPrice": "Price",
+    "posterBadge": "Badge Text",
+    "posterShowUrl": "Show URL",
+    "posterShowTimestamp": "Show Timestamp",
+    "posterShowDevice": "Show Device Info",
+    "posterShowBrand": "Show Brand",
+    "posterBrandText": "Brand Text",
+    "posterAccentColor": "Accent Color",
+    "posterBgStyle": "Background Style"
+  },
+  "history": {
+    "noImage": "No image",
+    "jobId": "jobId",
+    "status": "status",
+    "download": {
+      "png": "PNG",
+      "jpeg": "JPEG",
+      "watermarkPng": "WaterPrint",
+      "watermarkJpeg": "WaterPrint",
+      "poster": "Poster",
+      "posterGenerating": "Generating..."
+    }
+  },
+  "errors": {
+    "apiKeyRequired": "Please enter PageOps API Key",
+    "urlRequired": "Please enter target URL",
+    "batchUrlsRequired": "Please enter batch URLs (one per line)",
+    "headersParseFailed": "Headers JSON parse failed",
+    "cookiesParseFailed": "Cookies parse failed",
+    "cookiesMustBeArray": "Cookies JSON must be an array, e.g.: [{\"name\":\"a\",\"value\":\"b\",\"domain\":\"example.com\"}]",
+    "downloadFailed": "Download failed"
+  },
+  "progress": {
+    "batch": "Progress: {{current}} / {{total}}"
+  },
+  "confirm": {
+    "clearPresets": "Are you sure you want to clear all presets?"
+  }
+}
